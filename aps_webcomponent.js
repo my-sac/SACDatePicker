@@ -27,7 +27,7 @@
 
         async _checkForUpdates() {
             try {
-                const contribution = await (await fetch("http://widgets.nkappler.de/datepicker/releases/latest/datepicker.json")).json();
+                const contribution = await (await fetch("https://widgets.nkappler.de/datepicker/releases/latest/datepicker.json")).json();
                 if (contribution.version > version) {
                     const updateInfo = document.createElement("div");
                     updateInfo.innerHTML = `
