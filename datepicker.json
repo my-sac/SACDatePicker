@@ -13,13 +13,15 @@
 			"kind": "main",
 			"tag": "nkappler-date-picker",
 			"url": "https://my-sac.github.io/SACDatePicker/webcomponent.js",
-			"integrity": "sha256-2CjuSVz5IWqED4y3d193gE/kKptJ1S0KeaR5/dwa9fc="
+			"integrity": "",
+			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "nkappler-datepicker-aps",
 			"url": "https://my-sac.github.io/SACDatePicker/aps_webcomponent.js",
-			"integrity": "sha256-MOj5GFMDXAkyWYA/sfjzrIa1HTMTSBapRpZUs68is/g="
+			"integrity": "",
+			"ignoreIntegrity": true
 		}
 	],
 	"properties": {
