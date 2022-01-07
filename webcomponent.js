@@ -12,7 +12,7 @@
         
         async checkForUpdates() {
             try {
-                const contribution = await (await fetch("https://widgets.nkappler.de/datepicker/releases/latest/datepicker.json")).json();
+                const contribution = await (await fetch("https://my-sac.github.io/SACDatePicker/datepicker.json")).json();
                 if (contribution.version > version) {
                     console.log("A newer version of the Datepicker Custom Widget is available. Please contact your system administrator");
                 }
